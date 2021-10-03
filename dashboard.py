@@ -25,8 +25,8 @@ import numpy as np
 from streamlit.legacy_caching.caching import cache
 from streamlit.state.session_state import SessionState
 
-car_path = "/Users/angelokhan/Documents/Projects/streamlit-ML/CarPrice_Assignment.csv"
-housing_path = "/Users/angelokhan/Documents/Projects/streamlit-ML/Housing_data.csv"
+car_path = "CarPrice_Assignment.csv"
+housing_path = "Housing_data.csv"
 entire_form = st.form(key="form1")
 header = st.container()
 dataset = st.container()
