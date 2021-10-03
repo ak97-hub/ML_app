@@ -308,7 +308,7 @@ with entire_form:
         st.text(
         """
         In this interactive application use the available datasets to create a 
-        housing, or car, price prediction regression model. On the left side you'll 
+        housing or car, price prediction regressor model. On the left side you'll 
         see you are able to drop columns, choose how you want to encode the data, 
         how you'd like to scale the data, and how much of the outlier data you want 
         removed. Finally choose your regression model and press the submit button 
